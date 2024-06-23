@@ -1,0 +1,23 @@
+.RollDice button {
+    border: none;
+    border-radius: 0.5em;
+    padding: 1.5em;
+    width: 15em;
+    font-weight: bold;
+    color: #fff;
+    background-color:#22223b ;
+    margin-top: 3em;
+    transition: all ease 200ms;
+  }
+  
+  .RollDice button:hover {
+    background-color: rgb(105, 190, 126);
+  }
+  
+  .RollDice button:focus {
+    outline: none;
+  }
+  
+  .RollDice button:active {
+    transform: scale(0.95);
+  }
